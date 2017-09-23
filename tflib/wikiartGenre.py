@@ -7,26 +7,26 @@ import time
 import random
 import os
 #Set the dimension of images you want to be passed in to the network
-DIM = 64
+DIM = 128
 
 #Set your own path to images
-path = os.path.normpath('C:/Users/kenny/Desktop/toGit/misc/smallimages/')
+path = os.path.normpath('/home/cameron/Projects/GANGogh/wikiart_small')
 
 #This dictionary should be updated to hold the absolute number of images associated with each genre used during training
-styles = {'abstract': 14794,
-          'animal-painting': 1319,
-          'cityscape': 5833,
-          'figurative': 3335,
-          'flower-painting': 1260,
-          'genre-painting': 14881,
-          'landscape': 14893,
-          'marina': 1199,
-          'mythological-painting': 1670,
-          'nude-painting-nu': 2276,
-          'portrait': 14496,
-          'religious-painting': 7915,
-          'still-life': 2314,
-          'symbolic-painting': 2454}
+styles = {'abstract': 14946,
+          'animal-painting': 1750,
+          'cityscape': 6578,
+          'figurative': 4424,
+          'flower-painting': 1743,
+          'genre-painting': 15248,
+          'landscape': 15041,
+          'marina': 1752,
+          'mythological-painting': 2186,
+          'nude-painting-nu': 2957,
+          'portrait': 15283,
+          'religious-painting': 8848,
+          'still-life': 2948,
+          'symbolic-painting': 2949}
 
 styleNum = {'abstract': 0,
             'animal-painting': 1,

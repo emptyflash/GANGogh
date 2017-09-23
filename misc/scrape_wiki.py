@@ -13,19 +13,20 @@ import multiprocessing
 
 # A list of genres hosted on wikiart.org as well as the number of pages to pull images from, numbers were set from manual inspection and are only approximations of how many pages each genre contains
 genres = [('portrait',250),
-        ('landscape',250),
-        ('genre-painting',250),
-        ('abstract',250),
-        ('religious-painting',140),
-        ('cityscape',110),
-        ('figurative',75),
-        ('still-life',50),
-        ('symbolic-painting',50),
-        ('nude-painting-nu',50),
-        ('mythological-painting',35),
-        ('marina',30),
-        ('flower-painting',30),
-        ('animal-painting',30)]
+        #('landscape',250),
+        #('genre-painting',250),
+        #('abstract',250),
+        #('religious-painting',140),
+        #('cityscape',110),
+        #('figurative',75),
+        #('still-life',50),
+        #('symbolic-painting',50),
+        #('nude-painting-nu',50),
+        #('mythological-painting',35),
+        #('marina',30),
+        #('flower-painting',30),
+        #('animal-painting',30)]
+        ]
 
 
 
